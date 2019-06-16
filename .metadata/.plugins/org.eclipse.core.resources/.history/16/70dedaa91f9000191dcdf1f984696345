@@ -1,0 +1,66 @@
+package conditionals;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Quarter_test 
+{
+
+	@Test
+	public void test_midle_1()
+	{
+		assertEquals(1,Quarter.scnd_task(2, 4));
+	}
+	@Test
+	public void test_midle_large_numbers_1()
+	{
+		assertEquals(1,Quarter.scnd_task(Integer.MAX_VALUE,Integer.MAX_VALUE));
+	}
+	@Test
+	public void test_midle_2()
+	{
+		assertEquals(2,Quarter.scnd_task(-1,5));
+	}
+	@Test
+	public void test_midle_large_numbers_2()
+	{
+		assertEquals(2,Quarter.scnd_task(Integer.MIN_VALUE,Integer.MAX_VALUE));
+	}
+	@Test
+	public void test_midle_3()
+	{
+		assertEquals(3,CoordPlane(-4.2,-6));
+	}
+	@Test
+	public void test_midle_large_numbers_3()
+	{
+		assertEquals(3,CoordPlane(Double.MIN_VALUE,Double.MIN_VALUE));
+	}
+	@Test
+	public void test_midle_4()
+	{
+		assertEquals(4,CoordPlane(3.6,-2.5));
+	}
+	@Test
+	public void test_midle_large_numbers_4()
+	{
+		assertEquals(4,CoordPlane(Double.MAX_VALUE,Double.MIN_VALUE));
+	}
+	@Test(expected=IllegalArgumentException.class)
+	public void test_axis_x()
+	{
+		CoordPlane(0,44.3);
+	}
+	@Test(expected=IllegalArgumentException.class)
+	public void test_axis_y()
+	{
+		CoordPlane(44.3,0);
+	}
+	@Test(expected=IllegalArgumentException.class)
+	public void test_center_coord()
+	{
+		CoordPlane(0,0);
+	}
+
+}

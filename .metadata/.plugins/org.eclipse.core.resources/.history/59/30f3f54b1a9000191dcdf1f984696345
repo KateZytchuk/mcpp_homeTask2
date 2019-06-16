@@ -1,0 +1,12 @@
+import conditionals.*;
+
+public class HwMain 
+{
+	public static void main(String[] args) 
+	{
+		int res =0;
+		res = Even_num.frst_task(4, 5);
+		System.out.println("Result of first task is: "+res);
+		
+	}
+}

@@ -1,0 +1,11 @@
+package conditionals;
+
+public class Quarter 
+{
+	public static int scnd_task(int x, int y)
+	{
+		int res = 0;
+		
+		return res;
+	}
+}
