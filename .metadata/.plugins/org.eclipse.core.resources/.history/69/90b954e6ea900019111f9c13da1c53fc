@@ -1,0 +1,64 @@
+package conditionals;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Mark_test 
+{
+
+	@Test
+	public void test_1()
+	{
+		int x=15;
+		char rez = Mark.fifth_task(x);
+		assertEquals('F',rez);
+	}
+	@Test
+	public void test_2()
+	{
+		int x=25;
+		char rez=Mark.fifth_task(x);
+		assertEquals('E',rez);
+	}
+	@Test
+	public void test_3()
+	{
+		int x=45;
+		char rez=Mark.fifth_task(x);
+		assertEquals('D',rez);
+	}
+	@Test
+	public void test_4()
+	{
+		int x=61;
+		char rez=Mark.fifth_task(x);
+		assertEquals('C',rez);
+	}
+	@Test
+	public void test_5()
+	{
+		int x=77;
+		char rez=Mark.fifth_task(x);
+		assertEquals('B',rez);
+	}
+	@Test
+	public void test_6()
+	{
+		double x=90;
+		char rez=if_student.student_mark(x);
+		assertEquals('A',rez);
+	}
+	@Test(expected=IllegalArgumentException.class)
+	public void test_7()
+	{
+		double x=-1;
+		if_student.student_mark(x);
+	}
+	@Test(expected=IllegalArgumentException.class)
+	public void test_8()
+	{
+		double x=101;
+		if_student.student_mark(x);
+	}
+}
