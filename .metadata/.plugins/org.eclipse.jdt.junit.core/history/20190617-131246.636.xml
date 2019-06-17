@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Positive_num_test" project="Home_task_2" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="conditionals.Positive_num_test" time="0.009">
+    <testcase name="testP_1_3" classname="conditionals.Positive_num_test" time="0.004"/>
+    <testcase name="test_1_1" classname="conditionals.Positive_num_test" time="0.0"/>
+    <testcase name="test_1_2" classname="conditionals.Positive_num_test" time="0.0"/>
+    <testcase name="test_2_1" classname="conditionals.Positive_num_test" time="0.0"/>
+    <testcase name="test_2_2" classname="conditionals.Positive_num_test" time="0.001"/>
+    <testcase name="test_2_3" classname="conditionals.Positive_num_test" time="0.0"/>
+    <testcase name="test_0" classname="conditionals.Positive_num_test" time="0.003"/>
+  </testsuite>
+</testrun>
