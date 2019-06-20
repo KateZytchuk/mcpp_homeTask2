@@ -1,6 +1,5 @@
 package conditionals;
 
-/*Посчитать выражение (макс(а*б*с, а+б+с))+3*/
 
 public class Expression_max 
 {

@@ -1,6 +1,5 @@
 package conditionals;
 
-/*Если а - четное посчитать а*б, иначе а+б*/
 
 public class Even_num 
 {

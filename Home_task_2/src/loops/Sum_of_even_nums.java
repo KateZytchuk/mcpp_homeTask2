@@ -1,6 +1,5 @@
 package loops;
 
-/*Найти сумму четных чисел и их количество в диапазоне от 1 до 99 */
 
 public class Sum_of_even_nums 
 {

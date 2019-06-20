@@ -1,9 +1,7 @@
 package conditionals;
 
 public class Positive_num 
-{
-	/*Найти суммы только положительных из трех чисел*/
-	
+{	
 	public static int third_task(int a, int b, int c)
 	{
 		int res = 0;

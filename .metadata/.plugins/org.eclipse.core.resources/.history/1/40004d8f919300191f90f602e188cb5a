@@ -1,0 +1,13 @@
+package loops;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Sqrt_binnary_search_test 
+{
+	@Test
+	public void test() 
+	{
+	}
+}

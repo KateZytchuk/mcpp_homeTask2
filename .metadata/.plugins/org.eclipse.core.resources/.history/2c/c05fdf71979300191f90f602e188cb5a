@@ -1,0 +1,14 @@
+package loops;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Mirrow_reflection_test {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

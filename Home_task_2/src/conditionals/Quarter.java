@@ -2,7 +2,6 @@ package conditionals;
 
 public class Quarter 
 {
-	/*Определить какой четверти принадлежит точка с координатами (х,у)*/
 	public static int scnd_task(int x, int y)
 	{
 		int res = -1;
