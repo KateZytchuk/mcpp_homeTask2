@@ -1,0 +1,48 @@
+package one_dimentional_arrays;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Arr_count_odd_test 
+{
+	@Test(expected=NullPointerException.class)
+	public void test1_null() 
+	{
+		int[] a=null;
+		Array_count_even_7.count_even_7(a);
+	}
+	@Test(expected=IndexOutOfBoundsException.class)
+	public void test2_Index() 
+	{
+		int[] a=new int[0];
+		Array_count_even_7.count_even_7(a);
+	}
+	@Test
+	public void test3_1() 
+	{
+		int[] a= {1};
+		int[] b= {2};
+		assertEquals(0, Array_count_even_7.count_even_7(a));
+		assertEquals(1, Array_count_even_7.count_even_7(b));
+	}
+	@Test
+	public void test3_2() 
+	{
+		int[] a= {1,1};
+		int[] b= {2,1};
+		int[] c= {2,2};
+		assertEquals(0, Array_count_even_7.count_even_7(a));
+		assertEquals(1, Array_count_even_7.count_even_7(b));
+		assertEquals(2, Array_count_even_7.count_even_7(c));
+	}
+
+	@Test
+	public void test3_many() 
+	{
+		int[] a= {1,2,3,4,5,6};
+		
+		assertEquals(3, Array_count_even_7.count_even_7(a));
+		
+	}
+}

@@ -1,0 +1,14 @@
+package one_dimentional_arrays;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class Arr_count_odd_test {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
