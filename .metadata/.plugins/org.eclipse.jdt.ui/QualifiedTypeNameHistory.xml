@@ -5,4 +5,10 @@
 <fullyQualifiedTypeName name="conditionals.Even_num"/>
 <fullyQualifiedTypeName name="conditionals.Quarter"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="loops.Simple_num"/>
+<fullyQualifiedTypeName name="loops.Sqrt_binnary_search"/>
+<fullyQualifiedTypeName name="loops.Sum_of_digits"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="loops.Mirrow_reflection"/>
 </qualifiedTypeNameHistroy>
